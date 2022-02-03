@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap");
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFqXBArtD1YAVzmvKyP1NHKOvfD50vV6rn1A&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.281);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
